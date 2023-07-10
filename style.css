@@ -1,0 +1,34 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Add custom styles */
+html,
+body {
+  height: 100%;
+}
+
+.grid {
+  min-height: 100%;
+}
+
+#words {
+  height: 100vh;
+}
+
+.text-cyan-300 {
+  color: #6ee7b7;
+}
+
+.text-white {
+  color: white;
+}
+
+.word-card {
+  background-color: #486581;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 3%;
+}

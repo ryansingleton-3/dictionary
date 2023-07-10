@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tailwind/output.css" />
+
+    <title>Dictionary App</title>
+  </head>
+  <body class="grid grid-cols-3">
+    <div class="container mx-auto col-span-1 text-center">
+      <h1
+        class="text-center text-3xl w-1/2 mx-auto mt-72 text-cyan-100 bg-gradient-to-r from-cyan-100 to-blue-grey-900 bg-clip-text text-transparent rounded-md pb-3 pt-3 decoration-2"
+      >
+        Ryan's Dictionary App
+      </h1>
+      <div id="input-div" class="shadow-2xl w-1/2 mx-auto mt-10 bg-inherit">
+        <input
+          class="mx-auto text-center placeholder-blue-grey-200 border-b-4 border-cyan-300 focus:outline-none shadow-2xl"
+          placeholder="Type a word here"
+          onclick="this.value=''; this.placeholder='';"
+        />
+      </div>
+    </div>
+    <div class="col-start-2 col-end-4 bg-blue-grey-900" id="words"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
